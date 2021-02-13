@@ -1,0 +1,7 @@
+/.nyc_output/
+/build/
+/dist/
+/node_modules/
+/src/test/**/*.xxxx.js
+/src/test/tmp/
+/package-lock.json
