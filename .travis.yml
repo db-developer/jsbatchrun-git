@@ -1,19 +1,16 @@
 env:
   global:
-    - CODECOV_TOKEN="todo" # https://codecov.io
+    - CODECOV_TOKEN="62d34887-4473-440c-bb05-070136930a94" # https://codecov.io
 
 language: node_js
 
 node_js:
   - 10
 
-# not recuired as of 2016(?)
-# before_script:
-#  - npm install -g grunt-cli
-
 before_script:
   - npm install -g codecov
 
 script:
-  - npm run all      # see package.json scripts or gruntfile.js
+  - npm run coverage # get the coverage run before building
   - codecov          # upload coverage reports to codecov.io
+  - npm run build    # we have a build badge, so run the build

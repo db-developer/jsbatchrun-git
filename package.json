@@ -11,6 +11,7 @@
   "scripts": {
     "all": "grunt all",
     "build": "grunt build",
+    "coverage": "grunt coverage",
     "docs": "grunt docs",
     "test": "grunt test",
     "update": "npx npm-check-updates -u -x webpack"
