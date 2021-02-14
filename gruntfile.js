@@ -46,7 +46,7 @@ module.exports = function( grunt ) {
 
   // run coverage (required by travis)
   grunt.registerTask( strings.COVERAGE, [ strings.ESLINT,     strings.CLEAN,
-                                          strings.MKDIR,      `${ strings.COPY  }:build`,
+                                          strings.MKDIR,      `${ strings.COPY  }:test`,
                                           strings.NYCMOCHA ]);
 
   // run default
