@@ -17,7 +17,7 @@ npm:
 
   script:
     - npm cache clean --force
-    - npm install
+    - npm install --omit=peer
 
 test:
   stage: test
