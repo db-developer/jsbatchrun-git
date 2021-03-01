@@ -1,7 +1,7 @@
 {
   "name": "jsbatchrun-git",
   "version": "0.0.2",
-  "description": "jsbatchrun plugin - do filesystem tasks",
+  "description": "jsbatchrun plugin - do gitlab tasks",
   "author": "Dirk Brenckmann <db.developer@gmx.de>",
   "license": "MIT",
   "engines": {
@@ -44,7 +44,7 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-eslint": "^23.0.0",
     "grunt-jsdoc2md": "^0.0.7",
-    "grunt-jsonfile": "^0.2.7",
+    "grunt-jsonfile": "^0.2.8",
     "grunt-mkdir": "^1.1.0",
     "grunt-move": "^1.0.3",
     "grunt-nyc-mocha": "^0.0.10",
