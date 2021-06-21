@@ -5,7 +5,7 @@ env:
 language: node_js
 
 node_js:
-  - 10
+  - 15
 
 before_script:
   - npm install -g codecov
