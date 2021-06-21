@@ -57,7 +57,7 @@
     "webpack": "^4.45.0"
   },
   "dependencies": {
-    "grunt": "^1.4.0",
+    "grunt": "^1.4.1",
     "grunt-git": "^1.0.14",
     "jsbatch-lang": "^0.0.2",
     "jsbatch-strings": "^0.0.2"
