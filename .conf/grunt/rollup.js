@@ -3,7 +3,7 @@
  *  Licensed under the MIT license.
  */
 const path        = require( "path" );
-const terser      = require( "rollup-plugin-terser" ).terser;
+const terser      = require( "@rollup/plugin-terser" );
 const commonjs    = require( "@rollup/plugin-commonjs" );
 
 module.exports  = function ( grunt, options ) {
