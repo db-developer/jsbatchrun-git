@@ -1,6 +1,6 @@
 {
   "name": "jsbatchrun-git",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "description": "jsbatchrun plugin - do gitlab tasks",
   "author": "Dirk Brenckmann <db.developer@gmx.de>",
   "license": "MIT",
